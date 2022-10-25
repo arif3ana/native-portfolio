@@ -168,9 +168,9 @@ body {
     }
     .second-article section img {
         width: 200px;
-        margin-left: 43%;
         position: relative;
         top: -20%;
+        left: 30%;
     }
     .second-article .container .card p {
         font-size: 16px;
@@ -204,9 +204,9 @@ body {
     }
     .second-article section img {
         width: 200px;
-        margin-left: 62%;
         position: relative;
         top: -20%;
+        left: 60%;
     }
     .second-article .container {
         height: 850px;
@@ -223,7 +223,9 @@ body {
 @media only screen and (min-width: 992px) {
     .second-article section img {
         width: 300px;
-        margin-left: 0;
+        position: relative;
+        top: 0;
+        left: 0;
     }
     .second-article {
         background-color: #dcdcdc;

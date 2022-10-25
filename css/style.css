@@ -162,11 +162,14 @@ body {
     }
     .tagline {
         font-size: 12px;
-        max-width: 150px;
+        max-width: 155px;
     }
     .first-article a {
         margin-top: 40px;
         border-radius: 50%;
+    }
+    .second-article .container .card {
+        font-size: 12px;
     }
     .second-article section img {
         width: 200px;

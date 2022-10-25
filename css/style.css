@@ -1,0 +1,246 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eaeaea;
+}
+.navbar {
+	position: fixed;
+	z-index: 1;
+}
+.navbar-brand {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+.navbar-nav {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.navbar-nav .nav {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+    margin: 0 20px 0 20px;
+}
+.navbar-nav .nav:hover {
+    color: salmon;
+}
+.first-article {
+    display: flex;
+    height: 850px;
+    padding: 5%;
+    align-items: center;
+}
+.main-text {
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.main-text small {
+    font-weight: bold;
+    font-size: 1em;
+}
+.main-text h3 {
+    font-weight: 400;
+    font-size: 3em;
+}
+.main-text h2 {
+    font-weight: bold;
+    font-size: 4em;
+}
+.tagline {
+    background-color: skyblue;
+    max-width: 260px;
+}
+.first-article a {
+    margin-top: 40px;
+    border-radius: 50%;
+}
+.first-article .symbol {
+    margin-left: 24px;
+    font-size: 3em;
+}
+.first-article .container p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.second-article section img {
+    width: 300px;
+    padding-left: 20px;
+}
+.second-article {
+    background-color: #dcdcdc;
+    box-sizing: border-box;
+}
+.second-article .container {
+    display: flex;
+    height: 835px;
+    align-items: center;
+}
+.second-article .container .card {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+}
+.branding {
+    margin-top: 14%;
+}
+.branding ul{
+    display: flex;
+    padding-top: 10px;
+}
+.branding span{
+    font-weight: bold;
+}
+.title-about {
+    font-weight: bold;
+}
+.third-article {
+    padding-top: 10%;
+    min-height: 850px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.third-article .card section {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.third-article .container .card {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+    max-width: 100%;
+    background-color: transparent;
+    margin-bottom: 3%;
+}
+.third-article .card section img {
+    height: 100%;
+}
+.third-article .card .card-body {
+    padding-left: 40px;
+}
+.button-project {
+    text-align: right;
+    padding-top: 20px;
+}
+.button-project a {
+    border-radius: 20px;
+}
+.last-article .container {
+    padding-top: 200px;
+    text-align: center;
+    height: 850px;
+    box-sizing: border-box;
+}
+.last-article .container section {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.last-article {
+    background-color: #dcdcdc;
+}
+.last-article .container section .title-contact {
+    font-weight: bold;
+}
+.last-article .container section p {
+    font-weight: bold;
+}
+.last-article .container section h3 {
+    padding-top: 30px;
+    font-weight: bold;
+}
+.last-article .container section a {
+    width: 50%;
+}
+.footer {
+    background-color: transparent;
+}
+@media only screen and (max-width: 600px) {
+    .main-text h3 {
+        font-size: 1.7em;
+    }
+    .main-text h2 {
+        font-weight: bold;
+        font-size: 1.9em;
+    }
+    .tagline {
+        font-size: 12px;
+        max-width: 150px;
+    }
+    .first-article a {
+        margin-top: 40px;
+        border-radius: 50%;
+    }
+    .second-article section img {
+        width: 200px;
+        margin-left: 43%;
+        position: relative;
+        top: -20%;
+    }
+    .second-article .container {
+        height: 990px;
+        padding-top: 50%;
+    }
+    .branding {
+        margin-top: 2%;
+    }
+    .third-article {
+        padding-top: 50%;
+        padding-bottom: 20%;
+    }
+    .footer {
+        text-align: center;
+    }
+    .footer ul {
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .first-article a {
+        margin-top: 40px;
+        border-radius: 50%;
+    }
+    .main-text h2 {
+        font-size: 3.3em;
+    }
+    .second-article section img {
+        width: 200px;
+        margin-left: 62%;
+        position: relative;
+        top: -20%;
+    }
+    .second-article .container {
+        height: 850px;
+        padding-top: 25%;
+    }
+    .branding {
+        margin-top: 2%;
+    }
+    .third-article {
+        padding-top: 25%;
+        padding-bottom: 20%;
+    }
+} 
+@media only screen and (min-width: 992px) {
+    .second-article section img {
+        width: 300px;
+        margin-left: 0;
+    }
+    .second-article {
+        background-color: #dcdcdc;
+    }
+    .second-article .container {
+        /* display: flex;
+        height: 835px;
+        align-items: center; */
+        padding-top: 0;
+    }
+    .second-article .container .card {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: transparent;
+    }
+    .title-about {
+        font-weight: bold;
+    }
+    .third-article {
+        padding-top: 10%;
+    }
+} 
